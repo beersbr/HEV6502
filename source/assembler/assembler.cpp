@@ -115,7 +115,7 @@ void Assembler::setEntry(byte opCode, byte addrMode, string inst)
     else
     {
         byte* tmp = (byte*)malloc(12 * sizeof(byte));
-        bzero(tmp, 12 * sizeof(byte));
+        memset(tmp, 0, 12*sizeof(byte));
         tmp[addrMode] = opCode;
         (opTable[inst]) = tmp;
     }

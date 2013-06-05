@@ -1,16 +1,16 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 #include <QColor>
-#include <QGraphicsScene>
-#include <QGraphicsRectItem>
+#include <QtWidgets/QGraphicsScene>
+#include <QtWidgets/QGraphicsRectItem>
 #include <string>
 #include <sstream>
 #include <iostream>
 #include <iomanip>
 #include <QFuture>
-#include <QtConcurrentRun>
+#include <QtConcurrent/QtConcurrentRun>
 #include <stdlib.h>
 #include <time.h>
 #include "../assembler/assembler.h"

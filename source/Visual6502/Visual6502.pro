@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core widgets
 
 TARGET = Visual6502
 TEMPLATE = app

@@ -177,7 +177,7 @@ void MainWindow::on_btnAssemble_clicked()
         return;
     }
 
-    string asmData = ui->codeEdit->toPlainText().toAscii().constData();
+    string asmData = ui->codeEdit->toPlainText().toLatin1().constData();
     //addStatusLine("Done");
     asmber.setText(asmData);
     //set offset

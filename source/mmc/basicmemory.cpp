@@ -3,6 +3,7 @@
 BasicMemory::BasicMemory()
 {
     memoryMap.reserve(0x10000); //We're gonna have at most 64 k
+    memoryMap.resize(0x10000);
     for(int i = 0x200; i < 0x600; i++)
     {
         memoryMap[i] = 0;

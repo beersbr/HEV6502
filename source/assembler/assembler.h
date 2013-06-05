@@ -6,7 +6,7 @@
 #include <stack>
 #include <algorithm>
 #include <string>
-#include <strings.h>
+#include <string.h>
 #include <sstream>
 #include <stdlib.h>
 #include <ctype.h>
